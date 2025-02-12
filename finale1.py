@@ -49,7 +49,6 @@ def split_read_and_filter_columns(lst, x):
     return filtered_columns, x
 
 # %%
-# Convert the message to a list of characters
 lists = [list(message)]
 
 result = []
