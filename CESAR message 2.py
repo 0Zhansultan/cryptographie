@@ -10,7 +10,7 @@ def decodage(text,clé):
         cheval+=chr(zebre)
     return cheval
 
-cle=2
+cle=0
 texte=decodage(message, cle)
 while  ' est ' not in texte:
     cle+=1
